@@ -1530,6 +1530,7 @@ max-width: 80%;
     vertical-align: top;
 display: inline-block;
     margin-bottom: 30px;
+    padding-right: 50px;
 }
 
 #secondary ul {
@@ -1731,6 +1732,11 @@ a#burger {
 .widget_em_widget a {
  display: inline-block;
     margin-bottom: 4px;
+}
+
+.page-id-3236 table {
+ max-width: 800px;
+    margin: 0 auto 20px;
 }
 
 /*responsive shit*/
