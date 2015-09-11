@@ -1150,6 +1150,10 @@ width: 40%;
     font-size: 14px;
 }
 
+#meta ul li ul {
+ display: none;   
+}
+
 #footerinfo {
  width: 40%;
     margin: 5% 5% 5% 50px;
@@ -1300,7 +1304,7 @@ background: #222;
 
 .home #masthead li a:hover {
  color: #fff !important;   
-}s
+}
 
 #masthead h6 {
 display: none;
@@ -1499,8 +1503,16 @@ table.em-calendar td.eventless-today, table.em-calendar td.eventful-today {
 background: #ffee00;
 }
 
+ul.sub-menu ul.sub-menu {
+display: none !important;
+}
+
 table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {
 color: #222;
+}
+
+table.em-calendar td.eventful-pre ul, table.em-calendar td.eventful-post ul {
+   display: none;
 }
 
 table.fullcalendar {
@@ -1663,7 +1675,7 @@ div.em-booking-login label {
  display: none;   
 }
 
-.css-events-list .eventdates {
+.css-events-list .eventdates, #eventlist .eventdates {
 display: block;
     font-size: 12px;
     margin-bottom: 4px;
@@ -1714,6 +1726,11 @@ border-bottom: 2px solid #ffee00;
 
 a#burger {
  display: none;   
+}
+
+.widget_em_widget a {
+ display: inline-block;
+    margin-bottom: 4px;
 }
 
 /*responsive shit*/
@@ -2033,4 +2050,7 @@ padding: 0;
      ul#archives li p {
     padding: 0;
      }
+    .widget p {
+     padding: 0;   
+    }
  }
