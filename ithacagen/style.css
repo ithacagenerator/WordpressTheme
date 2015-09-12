@@ -933,7 +933,7 @@ object {
     font-weight: normal;
 }
 
-#events li .eventdates, #homenews .postmeta, #eventlist li, ul#archives span {
+#events li .eventdates, #homenews .postmeta, #eventlist li, ul#archives span, .single-event .eventdates {
 font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
@@ -1150,7 +1150,7 @@ width: 40%;
     font-size: 14px;
 }
 
-#meta ul li ul {
+#meta ul.children {
  display: none;   
 }
 
@@ -1515,7 +1515,7 @@ table.em-calendar td.eventful-pre ul, table.em-calendar td.eventful-post ul {
    display: none;
 }
 
-table.fullcalendar {
+table.fullcalendar, table.inline {
 max-width: 80%;
     margin: 0 auto 30px;
 }
@@ -1531,6 +1531,30 @@ max-width: 80%;
 display: inline-block;
     margin-bottom: 30px;
     padding-right: 50px;
+}
+
+td {
+ vertical-align: top;   
+}
+
+.em-booking-form label p.input-field-waiver label {
+ width: auto;   
+}
+
+input#em-booking-submit, #mc_embed_signup .button {
+background: #ffee00;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 20px;
+    border-radius: 0px;
+    border; 0px;
+    margin: 15px auto;
+    color: #222;
+    font-size: 22px;
+}
+
+#mc_embed_signup form {
+padding: 0px;
 }
 
 #secondary ul {
@@ -1734,6 +1758,15 @@ a#burger {
     margin-bottom: 4px;
 }
 
+table .eventful ul, table .eventful-today ul {
+ font-size: 13px;   
+}
+
+table .eventful ul li, table .eventful-today ul li {
+margin-bottom: 15px;
+line-height: 1.4;
+}
+
 .page-id-3236 table {
  max-width: 800px;
     margin: 0 auto 20px;
@@ -1861,8 +1894,15 @@ padding-bottom: 20px;
          margin-bottom: 30px;
      }
      
+     
+     #homenews h1 {
+         max-width: 90%;
+         font-size: 30px;
+     }
+     
      .home #events h4 {
          margin-bottom: 15px;
+         max-width: 80%;
      }
      
      .home #events li .eventtime, #homenews p {
@@ -2059,4 +2099,28 @@ padding: 0;
     .widget p {
      padding: 0;   
     }
+     
+     .home #masthead .site-branding, #masthead .site-branding h1.site-title, .home #masthead .site-branding h1.site-title a {
+      width: 80px;
+         height: 80px;
+     }
+     
+     .home #masthead .site-branding h1.site-title a {
+      background-size: 70px 70px;   
+     }
+    .home #masthead {
+    padding-top: 115px;
+    }
+     
+     .single-event .eventdates {
+      padding: 0 40px 7px;   
+     }
+     
+     #secondary .widget {
+      padding: 0px;   
+     }
+     
+     .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a {
+margin: 0;
+     }
  }
