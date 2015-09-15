@@ -1281,34 +1281,50 @@ display: block;
     text-decoration: none;
 }
 
-.home #masthead {
-min-height: 80vh;
-background: url('random/rotate.php') no-repeat 50% 50%;
-    background-size: cover;
-    padding: 160px 50px 50px;
-    position: relative;
+#homehead {
+padding: 0;
+position: relative;
 }
 
 #masthead {
- position: relative;   
+position: relative;   
 background: #222;
 }
 
-#masthead a:hover {
+#masthead a:hover, #homehead a:hover {
  color: #ffee00 !important;   
 }
 
-.home #masthead li {
+#homehead #home-navigation {
+ position: absolute;
+ z-index: 5;
+ 
+}
+
+#homehead ul {
+margin: 160px 0 0 0;
+}
+
+#homehead h6 {
+margin: 0;
+}
+
+#homehead li, #homehead h6 {
+padding-left: 45px;
+margin-bottom: 0;
+}
+
+#homehead li {
     font-family: 'Outage';
     display: block;
     float: none;
     font-size: 75px;
     color: #ffee00;
     line-height: 1.1;
-    text-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.home #masthead li a:hover {
+#homehead li a:hover {
  color: #fff !important;   
 }
 
@@ -1316,21 +1332,21 @@ background: #222;
 display: none;
 }
 
-.home #masthead h6 {
-      font-family: 'Outage';
+#homehead h6 {
+    font-family: 'Outage';
     float: none;
     font-size: 65px;  
     color: #fff;
     display: inline;
 }
 
-.home #masthead h6 a {
+#homehead h6 a {
  color: #fff;
     text-decoration: none;
     display: inline;
 }
 
-.home #masthead li a {
+#homehead li a {
     color: #ffee00;
     display: inline-block;
 }
@@ -1354,15 +1370,15 @@ position: absolute;
 #masthead {
 }
 
-.home #masthead li a:hover {
+#homehead li a:hover {
  color: #fff;   
 }
 
-.home #masthead li ul {
+#homehead li ul {
  display: none !important;   
 }
 
-#masthead .site-branding {
+#masthead .site-branding, #homehead .site-branding {
 position: relative;
     left: 50px;
     width: 120px;
@@ -1373,13 +1389,13 @@ position: relative;
  color: #aaa;   
 }
 
-.home #masthead .site-branding {
+#homehead .site-branding {
  position: absolute;
     top: 0;
     left: 50px;
 }
 
-#masthead .site-branding h1.site-title {
+.site-branding h1.site-title {
 width: 120px;
 height: 120px;
     margin: 0;
@@ -1387,7 +1403,7 @@ height: 120px;
 }
 
 
-#masthead .site-branding h1.site-title a {
+.site-branding h1.site-title a {
 display: block;
     background:  url('headerlogowhite.png') no-repeat 50% 50%;
     text-indent: -999em;
@@ -1397,14 +1413,14 @@ display: block;
     width: 120px;
 }
 
-.home #masthead .site-branding h1.site-title a {
+#homehead .site-branding h1.site-title a {
     background: #ffee00 url('headerlogohome.png') no-repeat 50% 50%;
 background-size: 110px 110px;
     height: 120px;
     width: 120px;
 }
 
-.home #masthead .site-branding h1.site-title a:hover {
+#homehead .site-branding h1.site-title a:hover {
 background-color: #fff;
 }
 
@@ -1789,8 +1805,57 @@ line-height: 1.4;
     margin: 0 auto 20px;
 }
 
+.home video {
+width: 100%;
+line-height: 1;
+height: auto;
+max-width: 100%;
+display: block;
+}
+
+
+.home #masthead {
+     display: none;
+     }
+     
+@media only screen and (max-width : 1200px) {
+#homehead li, #homehead h6 {
+font-size: 48px;
+}
+
+}
+     
+
 /*responsive shit*/
  @media only screen and (max-width : 1023px) {
+ 
+ #homehead li {
+ padding-left: 5px;
+ }
+ 
+ #homehead video {
+ display: none;
+ }
+ 
+#homehead #home-navigation  {
+ position: relative;
+ }
+ 
+ #homehead {
+ background: url('random/rotate.php') no-repeat 50% 50%;
+ background-size: auto 150%;
+ background-color: #222;
+ line-height: 1.1; 
+padding-bottom: 40px;
+ }
+ 
+  #homehead li {
+ line-height: 1.1; 
+  }
+ 
+ #homehead #home-navigation h6 {
+ display: block;
+ }
      
      .home a#burger {
       display: none;   
@@ -1854,11 +1919,12 @@ font-size: 18px;
          position: absolute;
      }
      
-     .home #masthead .site-branding {
+     #homehead .site-branding {
          left: 50px;
      }
      
-     .home #masthead li, .home #masthead h6 {font-size: 30px; line-height: 1; margin-bottom: 15px; text-align: left;}
+     
+     #homehead li, #homehead h6 {font-size: 30px; line-height: 1; margin-bottom: 5px; text-align: left; text-shadow: 0px 0px 20px rgba(0,0,0,0.2);}
      
      #calls, #calls h4, #calls h5 {
          width: 100%;
@@ -2117,17 +2183,15 @@ padding: 0;
      padding: 0;   
     }
      
-     .home #masthead .site-branding, #masthead .site-branding h1.site-title, .home #masthead .site-branding h1.site-title a {
+     #homehead .site-branding, #homehead .site-branding h1.site-title,  #homehead .site-branding h1.site-title a {
       width: 80px;
          height: 80px;
      }
      
-     .home #masthead .site-branding h1.site-title a {
+     #homehead .site-branding h1.site-title a {
       background-size: 70px 70px;   
      }
-    .home #masthead {
-    padding-top: 115px;
-    }
+   
      
      .single-event .eventdates {
       padding: 0 40px 7px;   

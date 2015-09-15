@@ -16,6 +16,27 @@ get_header();
 query_posts('posts_per_page=1'); 
 ?>
 
+<header id="homehead" class="site-header" role="banner">
+		<div class="site-branding">
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			
+		</div><!-- .site-branding -->
+
+		<nav id="home-navigation" class="main-navigation" role="navigation">
+            <a id="burger">---</a>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+            <h6><a href="http://wiki.ithacagenerator.org/">Wiki</a> / <a href="http://discuss.ithacagenerator.org/">Discuss</a></h6>
+		</nav><!-- #site-navigation -->
+<video id="movie"  autoplay loop poster="<?php bloginfo('template_url'); ?>/screenshot.jpg">
+    <source src="<?php bloginfo('template_url'); ?>/new.webm" type="video/webm">
+    <source src="<?php bloginfo('template_url'); ?>/new.ogg" type="video/ogg">
+    <source src="<?php bloginfo('template_url'); ?>/new.mp4" type="video/mp4">
+</video>
+
+</header><!-- #masthead -->
+
+
+
 
 <section id="join"><div id="calls"><h4><a href="http://ithacagenerator.org/events/current-classes/">Learn</a></h4><h5><a href="http://ithacagenerator.org/join-us/">Join</a></h5>
     </div><p>We are a community of inventors, crafters, designers, engineers and artists, located in Press Bay Alley at 116 West Green St, Ithaca, New York. Ithaca Generator is a 501(c)(3) public charity.</p><br /></section>
