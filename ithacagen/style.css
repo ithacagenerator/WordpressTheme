@@ -1303,6 +1303,7 @@ background: #222;
 
 #homehead ul {
 margin: 160px 0 0 0;
+max-width: 90%;
 }
 
 #homehead h6 {
