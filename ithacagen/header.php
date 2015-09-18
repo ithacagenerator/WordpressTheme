@@ -6,6 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
+ *
  * @package ithacagen
  */
 
@@ -22,14 +23,10 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-
 	$('#burger').click(function(){
 		$("#site-navigation").toggleClass('active');
 	});
-
-
   	});
-
 </script>    
     
 </head>
