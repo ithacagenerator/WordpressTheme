@@ -1354,7 +1354,7 @@ display: none;
     display: inline-block;
 }
 
-.page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation {
+.page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation,  {
 position: absolute;
     top: 50px;
     right: 40px;
@@ -1763,7 +1763,7 @@ ul#archives li {
  display: block;   
 }
 
-.home .menu-item-15021 {
+.home #homehead .menu-item-15021 {
 display: none;
 }
 
