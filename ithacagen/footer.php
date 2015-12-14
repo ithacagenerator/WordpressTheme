@@ -32,7 +32,8 @@
     Powered by <a href="http://www.wordpress.org">Wordpress</a><br />
     Icons by <a href="https://thenounproject.com/">The Noun Project</a><br />
     Fonts by <a href="http://losttype.com/">Lost Type Co-op</a> and <a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/">Mozilla</a><br />
-    Design/Development by IG member <a href="http://www.tylerfinck.com">Tyler Finck</a>
+    Design/Development by IG member <a href="http://www.tylerfinck.com">Tyler Finck</a><br />
+    <a href="http://ithacagenerator.org/wp-login.php">Admins</a>
     </p>
     <a id="footergen" href="http://www.ithacagenerator.org">Ithaca Generator</a>
 </section>
