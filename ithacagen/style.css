@@ -1354,16 +1354,16 @@ display: none;
     display: inline-block;
 }
 
-.page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation,  {
+.page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation, .error404 #masthead #site-navigation  {
 position: absolute;
     top: 50px;
     right: 40px;
     width: auto;
 }
 
-.page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a {
+.page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a , .error404 #masthead #site-navigation li a {
  color: #fff;
- margin: 0 0 0 40px;
+ margin: 0 0 0 30px;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1826,6 +1826,12 @@ display: block;
      display: none;
      }
      
+     
+.error404 h1.page-title {
+text-align: center;
+
+}     
+     
 @media only screen and (max-width : 1200px) {
 #homehead li, #homehead h6 {
 font-size: 48px;
@@ -1915,7 +1921,7 @@ padding-bottom: 40px;
 border: 0px;
      }
      
-     .page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation {
+     .page #masthead #site-navigation, .single #masthead #site-navigation, .search #masthead #site-navigation, .archive #masthead #site-navigation,  .error404 #masthead #site-navigation {
       position: static;
          clear: none;
          text-align: right;
@@ -1923,7 +1929,7 @@ border: 0px;
          padding: 10px 40px 20px;
      }
      
-     .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a {
+     .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a, .error404 #masthead #site-navigation li a {
 font-size: 18px;
      }
   
@@ -2215,7 +2221,7 @@ padding: 0;
       padding: 0px;   
      }
      
-     .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a {
+     .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a, .error404 #masthead #site-navigation li a {
 margin: 0;
      }
  }
