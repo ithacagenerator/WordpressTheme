@@ -952,6 +952,7 @@ ul#archives h1 {
  margin-bottom: 10px;   
     line-height: 1.1;
     text-indent: -2px;
+	font-size: 20px
 }
 
 ul#archives p {
@@ -1755,10 +1756,15 @@ ul#archives li {
     display: inline-block;
     width: 44%;
     vertical-align: top;
+    line-height: 1.5;
 }
 
 .entry-footer .cat-links, .entry-footer .tags-links {
  display: block;   
+}
+
+.home .menu-item-15021 {
+display: none;
 }
 
 p.comment-notes {
