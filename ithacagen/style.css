@@ -1843,9 +1843,9 @@ font-size: 48px;
 /*responsive shit*/
  @media only screen and (max-width : 1023px) {
  
- .main-navigation ul ul,  .main-navigation ul ul li,  .main-navigation ul ul li a {
+ .main-navigation ul ul,  .main-navigation ul ul li,  .main-navigation ul ul li a , #site-navigation.active ul ul  {
  float: none;
- display: block;
+ display: block !important;
  position: static;
  padding: 0;
  width: auto !important;
