@@ -1842,16 +1842,7 @@ font-size: 48px;
 
 /*responsive shit*/
  @media only screen and (max-width : 1023px) {
- 
- .main-navigation ul ul,  .main-navigation ul ul li,  .main-navigation ul ul li a , #site-navigation.active ul ul  {
- float: none;
- display: block !important;
- position: static;
- padding: 0;
- width: auto !important;
- margin: 0;
- font-size: 16px !important;
- }
+
  
  #homehead li {
  padding-left: 5px;
@@ -2234,4 +2225,15 @@ padding: 0;
      .page #masthead #site-navigation li a, .single #masthead #site-navigation li a, .search #masthead #site-navigation li a, .archive #masthead #site-navigation li a, .error404 #masthead #site-navigation li a {
 margin: 0;
      }
+     
+      
+ .main-navigation ul ul,  .main-navigation ul ul li,  .main-navigation ul ul li a , #site-navigation.active ul ul  {
+ float: none;
+ display: block !important;
+ position: static;
+ padding: 0;
+ width: auto !important;
+ margin: 0;
+ font-size: 16px !important;
+ }
  }
