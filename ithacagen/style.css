@@ -938,7 +938,8 @@ object {
 font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    color: #bbb;
 }
 
 .single-event .eventdates {
@@ -1438,14 +1439,23 @@ text-align: center;
     margin-bottom: 50px;
 }
 
-  .entry-content h1, .site-content h2, .site-content h3, .site-content h4, .site-content h5, .site-content h6, .site-content p, .site-content ul, .site-content ol, .site-content code, .site-content .comments-area, .site-content .entry-meta, .site-content form, .site-content .em-events-search, .site-content .em-pagination, .entry-footer {
+.site-content h2, .site-content h3, .site-content h4, .site-content h5, .site-content h6, .site-content ul, .site-content ol, .site-content code, .site-content .comments-area, .site-content .entry-meta, .site-content form, .site-content .em-events-search, .site-content .em-pagination, .entry-footer {
  max-width: 800px;
-    margin: 0 auto 45px;
+    margin: 0 auto 20px;
     display: block;
+    line-height: 1.1;
 }
 
+  .entry-content h1 {
+  max-width: 800px;
+    margin: 0 auto 45px;
+    display: block; 
+  }
+
+
 .site-content p {
-margin-bottom: 30px;
+margin-bottom: 35px;
+line-height: 1.65;
 }
 
 .entry-content h1 {
@@ -1590,7 +1600,7 @@ background: #ffee00;
 }
 
 #mc_embed_signup form {
-padding: 0px;
+padding: 0px !important;
 }
 
 #secondary ul {
@@ -1609,6 +1619,7 @@ padding: 0px;
     border-bottom: 2px solid #ffee00;
     text-decoration: none;
     font-weight: normal;
+    line-height: 1;
 }
 
 h2.widget-title {
