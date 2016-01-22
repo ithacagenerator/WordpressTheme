@@ -1662,8 +1662,8 @@ ul.event-categories li {
  list-style-type: none;   
 }
 
-.single-event #comments {
- display: none;   
+#comments /*hiding comments */ {
+ display: none !important;   
 }
 
 .archive #main {
