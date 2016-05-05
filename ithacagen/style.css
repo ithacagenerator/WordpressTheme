@@ -1184,12 +1184,12 @@ width: 40%;
 
 #meta div {
     display: inline-block;
-    width: 45%;
+    width: 47%;
     vertical-align: top;
 }
 
 #meta div:nth-child(1) {
-        margin-right: 5%;
+        margin-right: 2%;
 
 }
 
@@ -1220,7 +1220,7 @@ list-style-type: none;
 #social li a {
         color: #222;
 padding: 85px 0px 10px;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-bottom: 70px;
     font-size: 13px;
 
