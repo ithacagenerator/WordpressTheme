@@ -1073,7 +1073,7 @@ padding-right: 120px;
     text-indent: -3px;
     font-size: 40px;
     margin: 20px 0;
-    line-height: 1.2;
+    line-height: 1;
 }
 
 #homenews a {
@@ -1432,7 +1432,7 @@ h1.entry-title {
 text-align: center;
     padding: 50px 50px 40px;
     line-height: 1;
-    font-size: 72px;
+    font-size: 56px;
     margin: 0;
     font-family: 'Outage';
     margin-bottom: 50px;
