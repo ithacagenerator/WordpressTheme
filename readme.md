@@ -1,4 +1,4 @@
-ithacagen - wordpress theme (2015)
+ithacagen - wordpress theme (2016)
 =======================================
 _by [Tyler Finck](http://www.finck.co)_
 
