@@ -1184,13 +1184,13 @@ width: 40%;
 #meta li {
     list-style-type: none;
     line-height: 1;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     text-transform: capitalize;
 }
 
 #meta div {
     display: inline-block;
-    width: 47%;
+    width: 44%;
     vertical-align: top;
 }
 
@@ -1202,6 +1202,11 @@ width: 40%;
 #meta li a {
 text-decoration: none;
 color: #222;
+display: block;
+}
+
+#meta li a:hover {
+text-decoration: underline;
 }
 
 #social  {
@@ -1575,7 +1580,7 @@ max-width: 80%;
 
 #secondary {
  background: #eee;  
-    padding: 90px 50px 50px;
+    padding: 60px 50px 30px;
 }
 
 #secondary .widget {
