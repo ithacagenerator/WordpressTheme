@@ -934,6 +934,10 @@ object {
     font-weight: normal;
 }
 
+.home #events li a:hover {
+text-decoration: underline;
+}
+
 #events li .eventdates, #homenews .postmeta, #eventlist li, ul#archives span, .single-event .eventdates {
 font-size: 10px;
     font-weight: bold;
@@ -1062,6 +1066,7 @@ padding-right: 120px;
     position: absolute;
     bottom: 40px;
     z-index: 2;
+    margin-bottom: 9px;
 }
 
  
@@ -1071,7 +1076,7 @@ padding-right: 120px;
     position: relative;
     z-index: 2;
     text-indent: -3px;
-    font-size: 40px;
+    font-size: 36px;
     margin: 20px 0;
     line-height: 1;
 }
@@ -1110,7 +1115,7 @@ padding-right: 120px;
     width: 65%;
     max-width: 65%;
     font-size: 20px;
-    line-height: 1.95;
+    line-height: 1.4;
 }
 
 #calls h4, #calls h5 {
@@ -1179,7 +1184,8 @@ width: 40%;
 #meta li {
     list-style-type: none;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 #meta div {
@@ -1220,7 +1226,7 @@ list-style-type: none;
 #social li a {
         color: #222;
 padding: 85px 0px 10px;
-    margin-right: 40px;
+    margin-right: 30px;
     margin-bottom: 70px;
     font-size: 13px;
 
@@ -2016,7 +2022,7 @@ padding-bottom: 20px;
      
      #homenews h1 {
          max-width: 90%;
-         font-size: 30px;
+         font-size: 27px;
      }
      
      .home #events h4 {
