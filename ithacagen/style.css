@@ -1445,6 +1445,10 @@ text-align: center;
     line-height: 1.1;
 }
 
+.site-content ul, .site-content ol {
+line-height: 1.4;
+}
+
   .entry-content h1 {
   max-width: 800px;
     margin: 0 auto 45px;
