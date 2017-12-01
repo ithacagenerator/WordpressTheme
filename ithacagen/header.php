@@ -43,7 +43,15 @@ $(document).ready(function(){
 		<nav id="site-navigation" class="main-navigation" role="navigation">
             <a id="burger">---</a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-            <h6><a href="http://wiki.ithacagenerator.org/">Wiki</a> / <a href="http://discuss.ithacagenerator.org/">Discuss</a></h6>
+
+                <ul style="margin-top:0px">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
+                     <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
+                     <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
+                     <a href="http://ithacagenerator.org:3000/">Slack</a> 
+                  </li>
+                </ul>
+
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
