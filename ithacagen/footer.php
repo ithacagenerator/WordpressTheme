@@ -50,7 +50,9 @@
 
 </script>
 
+<!--
 <script src="https://widget.battleforthenet.com/widget.js" async></script>
+-->
 
 </body>
 </html>

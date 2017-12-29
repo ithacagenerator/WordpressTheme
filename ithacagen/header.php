@@ -44,6 +44,7 @@ $(document).ready(function(){
             <a id="burger">---</a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
+                <!-- 
                 <ul style="margin-top:0px">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
                      <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
@@ -51,6 +52,7 @@ $(document).ready(function(){
                      <a href="http://ithacagenerator.org:3000/">Slack</a> 
                   </li>
                 </ul>
+                -->
 
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
