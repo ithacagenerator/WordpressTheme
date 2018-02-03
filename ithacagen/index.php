@@ -29,7 +29,7 @@ query_posts('posts_per_page=1');
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
                      <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
                      <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
-                     <a href="http://ithacagenerator.org:3000/">Slack</a>
+                     <a href="https://ithacagenerator.org/slack-invite/">Slack</a>
                   </li>
                 </ul>
 		</nav><!-- #site-navigation -->
