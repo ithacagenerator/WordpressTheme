@@ -38,7 +38,7 @@ query_posts('posts_per_page=1');
       </div>
       <div style="width: 50%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
         <script src="https://givegab.s3.amazonaws.com/donation-widget/givegab-button.js"></script>
-        <button style="margin-left: auto; margin-right: auto; display: block; background-color: #8CC640; color: black; font-weight: bolder; font-size: 30px;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711">Holiday Giving Campaign</button>
+        <button style="margin-left: auto; margin-right: auto; display: block; background-color: #8CC640; color: #fc6c85; font-weight: bolder; font-size: 30px;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711">Holiday Giving Campaign</button>
       </div>                
 		</nav><!-- #site-navigation -->
 <video id="movie"  autoplay loop poster="<?php bloginfo('template_url'); ?>/screenshot.jpg">
