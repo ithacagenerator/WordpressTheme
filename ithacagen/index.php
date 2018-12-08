@@ -34,7 +34,7 @@ query_posts('posts_per_page=1');
                 </ul>
       <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
         This holiday season, please share in the spirit of giving. Every little bit helps, and we've made it super easy to contribute. 
-        Just <b>click the button below</b> to get donate a little (or a lot). We thank you in advance, and wish you a happy, healthy, and safe holiday season!
+        Just <b>click the button below</b> to donate a little (or a lot). We thank you in advance, and wish you a happy, healthy, and safe holiday season!
       </div>
       <div style="width: 90%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
         <script src="https://givegab.s3.amazonaws.com/donation-widget/givegab-button.js"></script>
