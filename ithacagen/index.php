@@ -32,16 +32,15 @@ query_posts('posts_per_page=1');
                      <a href="https://ithacagenerator.org/slack-invite/">Slack</a>
                   </li>
                 </ul>
-		</nav><!-- #site-navigation -->
-
     <div style="width: 50%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
       This holiday season, please share in the spirit of giving. Every little bit helps, and we've made it super easy to contribute. 
       Just <b>click the button below</b> to get donate a little (or a lot). We thank you in advance, and wish you a happy, healthy, and safe holiday season!
     </div>
     <div style="width: 50%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
       <script src="https://givegab.s3.amazonaws.com/donation-widget/givegab-button.js"></script>
-      <button style="margin-left: auto; margin-right: auto; display: block;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711" style="background-color: #8CC640;">Just a fiver!</button>
-    </div>
+      <button style="margin-left: auto; margin-right: auto; display: block;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711" style="background-color: #8CC640;">Holiday Campaign</button>
+    </div>                
+		</nav><!-- #site-navigation -->
 <video id="movie"  autoplay loop poster="<?php bloginfo('template_url'); ?>/screenshot.jpg">
     <source src="<?php bloginfo('template_url'); ?>/new.webm" type="video/webm">
     <source src="<?php bloginfo('template_url'); ?>/new.ogg" type="video/ogg">
