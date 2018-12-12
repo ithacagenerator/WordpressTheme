@@ -34,7 +34,8 @@ query_posts('posts_per_page=1');
                 </ul>
       <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
       We have had a good run with our 40 Watt Zing Laser - and after four or five years it is time for some repairs. 
-      We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 - chip in to help us make it work!
+      We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 - 
+      chip in to help us make it work by clicking on the button below.
       </div>
       <div style="width: 90%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
         <script src="https://givegab.s3.amazonaws.com/donation-widget/givegab-button.js"></script>
