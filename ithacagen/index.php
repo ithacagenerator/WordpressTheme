@@ -33,13 +33,13 @@ query_posts('posts_per_page=1');
                   </li>
                 </ul>
       <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
-        This holiday season, please share in the spirit of giving. Every little bit helps, and we've made it super easy to contribute to Ithaca Generator. 
-        Just <b>click the button below</b> to donate a little (or a lot). We thank you in advance, and wish you happy holidays!
+      We have had a good run with our 40 Watt Zing Laser - and after four or five years it is time for some repairs. 
+      We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 - chip in to help us make it work!
       </div>
       <div style="width: 90%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
         <script src="https://givegab.s3.amazonaws.com/donation-widget/givegab-button.js"></script>
         <button style="margin-left: auto; margin-right: auto; display: block; background-color: #8CC640; color: #fc6c85; font-weight: bolder; font-family: 'Outage'; font-size: 45px;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711">
-          Holiday Giving Campaign
+          Chip in to repair and refresh our laser
         </button>
       </div>                
 		</nav><!-- #site-navigation -->
