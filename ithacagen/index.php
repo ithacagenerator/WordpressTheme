@@ -30,9 +30,10 @@ query_posts('posts_per_page=1');
                      <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
                      <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
                      <a href="https://ithacagenerator.org/slack-invite/">Slack</a>
+                     <a href="https://ithacagenerator.org/december-membership-sale/">December Membership Sale</a>
                   </li>
                 </ul>
-      <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
+      <!-- <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
       We have had a good run with our 40 Watt Zing Laser - and after four or five years it is time for some repairs. 
       We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 - 
       chip in to help us make it work by clicking on the button below.
@@ -42,7 +43,7 @@ query_posts('posts_per_page=1');
         <button style="margin-left: auto; margin-right: auto; display: block; background-color: #8CC640; color: #fc6c85; font-weight: bolder; font-family: 'Outage'; font-size: 45px;" class="givegab-button" data-campaign-id="25038" data-host="https://www.givegab.com" data-org-id="454711">
           Chip in to repair and refresh our laser
         </button>
-      </div>                
+      </div>-->
 		</nav><!-- #site-navigation -->
 <video id="movie"  autoplay loop poster="<?php bloginfo('template_url'); ?>/screenshot.jpg">
     <source src="<?php bloginfo('template_url'); ?>/new.webm" type="video/webm">
