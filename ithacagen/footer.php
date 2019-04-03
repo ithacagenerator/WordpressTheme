@@ -17,6 +17,7 @@
 <div><h2>Find Us</h2>
 <p>
 116 West Green St., Ithaca, New York, AKA: Press Bay Alley. Go past Life's So Sweet chocolate store and down the stairs by the loading dock. We are open during the hours shown on our makerspace <a href="http://ithacagenerator.org/events/times-the-makerspace-is-open">Open Times calendar</a>.</p></div>
+<iframe style="margin-top: 20px; width: 100%; height: 1677px;" src="https://airqualityegg.com/portal/#egg0080441f1c0b0110"></iframe>
 </section>
 <section id="footerinfo">
     <?php get_search_form(); ?>
@@ -37,7 +38,6 @@
     </p>
     <a id="footergen" href="http://www.ithacagenerator.org">Ithaca Generator</a>
 
-    <iframe style="margin-top: 20px; width: 100%; height: 1677px;" src="https://airqualityegg.com/portal/#egg0080441f1c0b0110"></iframe>
 </section>
 
 <?php wp_footer(); ?>
