@@ -9,7 +9,7 @@
  * @package ithacagen
  */
 
-?>			
+?>
 <section id="meta">
 <div><h2>Categories</h2>
 <?php wp_list_cats('sort_column=name&sort_order=asc'); ?></div>
@@ -26,7 +26,7 @@
     <li class="email"><a href="m&#97;i&#108;&#116;o&#58;info&#64;&#105;th%61%&#54;&#51;a&#103;%6&#53;ne&#114;ato%&#55;2&#46;&#37;6Frg">Email Us</a></li>
     <li class="googlegroup"><a href="https://groups.google.com/forum/#!forum/ithaca_hackerspace">Google Group</a></li>
     </ul>
-    
+
 
     <p>Copyright © 2015 Ithaca Generator<br />
     Powered by <a href="http://www.wordpress.org">Wordpress</a><br />
@@ -36,6 +36,8 @@
     <a href="http://ithacagenerator.org/wp-login.php">Admins</a>
     </p>
     <a id="footergen" href="http://www.ithacagenerator.org">Ithaca Generator</a>
+
+    <iframe style="margin-top: 20px; width: 100%; height: 1677px;" src="https://airqualityegg.com/portal/#egg0080441f1c0b0110"></iframe>
 </section>
 
 <?php wp_footer(); ?>
