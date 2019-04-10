@@ -12,14 +12,14 @@
  * @package ithacagen
  */
 
-get_header(); 
-query_posts('posts_per_page=1'); 
+get_header();
+query_posts('posts_per_page=1');
 ?>
 
 <header id="homehead" class="site-header" role="banner">
 		<div class="site-branding">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			
+
 		</div><!-- .site-branding -->
 
 		<nav id="home-navigation" class="main-navigation" role="navigation">
@@ -27,15 +27,14 @@ query_posts('posts_per_page=1');
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
                 <ul style="margin-top:0px">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
-                     <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
+                     <a href="https://wiki.ithacagenerator.org/">Wiki</a> /
                      <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
                      <a href="https://ithacagenerator.org/slack-invite/">Slack</a>
-                     <a href="https://ithacagenerator.org/december-membership-sale/">December Membership Sale</a>
                   </li>
                 </ul>
       <!-- <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
-      We have had a good run with our 40 Watt Zing Laser - and after four or five years it is time for some repairs. 
-      We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 - 
+      We have had a good run with our 40 Watt Zing Laser - and after four or five years it is time for some repairs.
+      We will be sending the main board back to Epilog for repair or replacement to take care of some persistent issues. It could cost $1000 -
       chip in to help us make it work by clicking on the button below.
       </div>
       <div style="width: 90%; padding: 10px; margin-left: auto; margin-right: auto; display: block;">
