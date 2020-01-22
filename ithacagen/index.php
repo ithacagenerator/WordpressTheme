@@ -75,18 +75,5 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 100
 </section>
 <?php endwhile; // end of the loop. ?>
 <section id="map"><iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/finck.n5comhc4/attribution,geocoder,share.html?access_token=pk.eyJ1IjoiZmluY2siLCJhIjoidWtkSk9kSSJ9.tWULClZUYQQNtyWMs58CuA'></iframe></section>
-<section id="events">
-
-
-
-<?php
-
-
-
-echo EM_Events::output(array('limit'=>5));
-?><br clear="all" /><h6>Events</h6>
-
-
-</section>
 
 <?php get_footer(); ?>
