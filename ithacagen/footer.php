@@ -21,17 +21,15 @@
   </p>
   <h2>Area Captains</h2>
   <p>
-    <ul>
-      <li>3D Printing: <a href="mailto:3dprinting@ithacagenerator.org">3dprinting@ithacagenerator.org</a> (Josh DeRosa)</li>
-      <li>Electronics: <a href="mailto:electronics@ithacagenerator.org">electronics@ithacagenerator.org</a> (Vic Aprea)</li>
-      <li>Laser Cutter: <a href="mailto:laser@ithacagenerator.org">laser@ithacagenerator.org</a> (Nicole Marino)</li>
-      <li>Ceramics: <a href="mailto:ceramics@ithacagenerator.org">ceramics@ithacagenerator.org</a> (Arianna Crawford)</li>
-      <li>IG Sustainability: <a href="mailto:environmental@ithacagenerator.org">environmental@ithacagenerator.org</a> (open position)</li>
-      <li>Storage/ Organization: <a href="mailto:storage@ithacagenerator.org">storage@ithacagenerator.org</a> (Caleb Harned)</li>
-      <li>Woodworking: <a href="mailto:woodworking@ithacagenerator.org">woodworking@ithacagenerator.org</a> (Jon Sanders)</li>
-      <li>Metal Work: <a href="mailto:metalworking@ithacagenerator.org">metalworking@ithacagenerator.org</a> (Laurence Clarkberg)</li>
-      <li>Crafts / Textiles: <a href="mailto:crafts@ithacagenerator.org">crafts@ithacagenerator.org</a> (Denise O’Leary)</li>
-    </ul>
+      * 3D Printing: <a href="mailto:3dprinting@ithacagenerator.org">3dprinting@ithacagenerator.org</a> (Josh DeRosa)<br/>
+      * Electronics: <a href="mailto:electronics@ithacagenerator.org">electronics@ithacagenerator.org</a> (Vic Aprea)<br/>
+      * Laser Cutter: <a href="mailto:laser@ithacagenerator.org">laser@ithacagenerator.org</a> (Nicole Marino)<br/>
+      * Ceramics: <a href="mailto:ceramics@ithacagenerator.org">ceramics@ithacagenerator.org</a> (Arianna Crawford)<br/>
+      * IG Sustainability: <a href="mailto:environmental@ithacagenerator.org">environmental@ithacagenerator.org</a> (open position)<br/>
+      * Storage/ Organization: <a href="mailto:storage@ithacagenerator.org">storage@ithacagenerator.org</a> (Caleb Harned)<br/>
+      * Woodworking: <a href="mailto:woodworking@ithacagenerator.org">woodworking@ithacagenerator.org</a> (Jon Sanders)<br/>
+      * Metal Work: <a href="mailto:metalworking@ithacagenerator.org">metalworking@ithacagenerator.org</a> (Laurence Clarkberg)<br/>
+      * Crafts / Textiles: <a href="mailto:crafts@ithacagenerator.org">crafts@ithacagenerator.org</a> (Denise O’Leary)<br/>
   </p>
 </div>
 <iframe style="margin-top: 20px; width: 100%; height: 1677px;" src="https://airqualityegg.com/portal/#egg0080441f1c0b0110"></iframe>
