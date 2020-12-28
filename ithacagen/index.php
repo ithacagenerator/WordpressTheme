@@ -74,6 +74,17 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 100
 
 </section>
 <?php endwhile; // end of the loop. ?>
-<section id="map"><iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/finck.n5comhc4/attribution,geocoder,share.html?access_token=pk.eyJ1IjoiZmluY2siLCJhIjoidWtkSk9kSSJ9.tWULClZUYQQNtyWMs58CuA'></iframe></section>
-
+<section id="map">
+<!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/finck.n5comhc4/attribution,geocoder,share.html?access_token=pk.eyJ1IjoiZmluY2siLCJhIjoidWtkSk9kSSJ9.tWULClZUYQQNtyWMs58CuA'></iframe> -->
+  <div id='map' style='width: 100%; height: 500px;'></div>
+</section>
+<script>
+<!--
+  mapboxgl.accessToken = 'pk.eyJ1IjoidmljYXRjdSIsImEiOiJja2o4NTJndXcwYzBtMndxc2FwdndvNGc1In0.AK1trXuAob_jAtlQGMoabQ';
+  var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11'
+  });
+-->
+</script>
 <?php get_footer(); ?>

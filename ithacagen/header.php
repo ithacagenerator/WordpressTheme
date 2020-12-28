@@ -27,8 +27,11 @@ $(document).ready(function(){
 		$("#site-navigation").toggleClass('active');
 	});
   	});
-</script>    
-    
+</script>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -37,19 +40,19 @@ $(document).ready(function(){
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
             <a id="burger">---</a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
-                <!-- 
+                <!--
                 <ul style="margin-top:0px">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
-                     <a href="https://wiki.ithacagenerator.org/">Wiki</a> / 
+                     <a href="https://wiki.ithacagenerator.org/">Wiki</a> /
                      <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
-                     <a href="http://ithacagenerator.org:3000/">Slack</a> 
+                     <a href="http://ithacagenerator.org:3000/">Slack</a>
                   </li>
                 </ul>
                 -->
