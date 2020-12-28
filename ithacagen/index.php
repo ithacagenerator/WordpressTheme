@@ -85,7 +85,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 100
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [42.4388727,-76.4995197], // starting position [lng, lat]
-    zoom: 22 // starting zoom
+    zoom: 16 // starting zoom
   });
 -->
 </script>
