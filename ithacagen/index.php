@@ -84,7 +84,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 100
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-76.49955553302198, 42.43902590587905], // starting position [lng, lat]
+    center: [-76.49955553302198, 42.43912590587905], // starting position [lng, lat]
     zoom: 18 // starting zoom
   });
 -->
