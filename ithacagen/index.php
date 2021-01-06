@@ -29,7 +29,8 @@ query_posts('posts_per_page=1');
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16585">
                      <a href="https://wiki.ithacagenerator.org/">Wiki</a> /
                      <a href="https://discuss.ithacagenerator.org/">Discuss</a> /
-                     <a href="https://ithacagenerator.org/slack-invite/">Slack</a>
+                     <!-- <a href="https://ithacagenerator.org/slack-invite/">Slack</a> -->
+                     <a href="https://discord.gg/MEycKRebqM">Discord</a>
                   </li>
                 </ul>
       <!-- <div style="font-size: 24px; font-family: 'Fira Mono', 'Lucida Console', Courier, monospace;margin-top: 30px; width: 90%; padding: 20px; margin-left: auto; margin-right: auto; display: block; background-color: yellow; border: medium black solid">
