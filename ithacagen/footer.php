@@ -17,8 +17,7 @@
 <div>
   <h2>Find Us</h2>
   <p>
-  116 West Green St., Ithaca, New York, AKA: Press Bay Alley. For woodshop / metalshop location walk past Circus Culture and down the stairs by the loading dock.
-  For Laser Cutter, Electronics, 3D Printing, Ceramics and Crats location walk toward Three Ring Donuts and turn right.
+  233 Cherry St., Ithaca, New York, Behind Wegman's.
   We are open during the hours shown on our makerspace <a href="http://ithacagenerator.org/events/times-the-makerspace-is-open">Open Times calendar</a>.
   </p>
   <h2>Area Captains</h2>
