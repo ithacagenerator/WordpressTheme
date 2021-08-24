@@ -57,7 +57,7 @@ query_posts('posts_per_page=1');
 
 
 <section id="join"><div id="calls"><h4><a href="http://ithacagenerator.org/events/current-classes/">Learn</a></h4><h5><a href="http://ithacagenerator.org/join-us/">Join</a></h5>
-    </div><p>We are a community of inventors, crafters, designers, engineers and artists, located in Press Bay Alley at 233 Cherry St., Ithaca, New York, Ithaca, New York - Behind Wegman's. Ithaca Generator is a 501(c)(3) public charity.</p><br /></section>
+    </div><p>We are a community of inventors, crafters, designers, engineers and artists, located at 233 Cherry St., Ithaca, New York, Ithaca, New York - Behind Wegman's. Ithaca Generator is a 501(c)(3) public charity.</p><br /></section>
 <?php while ( have_posts() ) : the_post(); ?>
 <?php
 $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 1000,1000 ), false, '' );
